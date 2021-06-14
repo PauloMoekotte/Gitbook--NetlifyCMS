@@ -12,7 +12,7 @@ title: README
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DemoMacro/Hexo-NetlifyCMS/)
 
-### Quick Start
+## Quick Start
 
 Let's get started with Gitbook-NetlifyCMS step by step.
 
@@ -29,7 +29,7 @@ Publish directory: _book
 
 More info: [A Step-by-Step Guide: GitBook on Netlify](https://www.netlify.com/blog/2015/12/08/a-step-by-step-guide-gitbook-on-netlify/)
 
-### Enable Identity and Git Gateway
+## Enable Identity and Git Gateway
 
 Netlify's Identity and Git Gateway services allow you to manage CMS admin users for your site without requiring them to have an account with your Git host or commit access on your repo. From your site dashboard on Netlify:
 
@@ -38,7 +38,7 @@ Netlify's Identity and Git Gateway services allow you to manage CMS admin users 
 3. If you'd like to allow one-click login with services like Google and GitHub, check the boxes next to the services you'd like to use, under **External providers**.
 4. Scroll down to **Services > Git Gateway**, and click **Enable Git Gateway**. This authenticates with your Git host and generates an API access token. In this case, we're leaving the **Roles** field blank, which means any logged in user may access the CMS. For information on changing this, check the [Netlify Identity documentation](https://www.netlify.com/docs/identity/).
 
-### Add the Netlify Identity Widget
+## Add the Netlify Identity Widget
 
 You'll need to add this to the `<head>` of your CMS index page at /admin/index.html, as well as the `<head>` of your site's main index page.We could include the script in your site using Netlify's Script Injection feature;
 
